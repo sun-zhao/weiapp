@@ -190,8 +190,8 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .arrow1{width:12px;height:12px;background: url(../img/ico-05.png) no-repeat;position: absolute;background-size:12px;right:0;top:0;}
 .list li .AppImg{margin-top:13px;display:inline-block;margin-right:20px;}
 .list li .AppName{color:#444;}
-.list li.cross p:nth-child(3) span.floatright{color:#00cf77;}
-.list li.nocross p:nth-child(3) span.floatright{color:#e6004f;}
+.list li.cross p:nth-child(4) span.floatright{color:#00cf77;}
+.list li.nocross p:nth-child(4) span.floatright{color:#e6004f;}
 .list li.current{background-color:#42a6fc;color:#fff;}
 .list li.current .AppName,.list li.current.cross p:nth-child(3) span.floatright,.list li.current.nocross p:nth-child(3) span.floatright{color:#fff;}
 .list li.current .AppImg img{border:1px solid #fff;}
