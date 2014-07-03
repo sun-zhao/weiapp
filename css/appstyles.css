@@ -297,7 +297,7 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .formOut{padding:5px;}
 .formOut section.form{padding:10px;background-color:#fff;box-shadow: 1px 1px 1px #ccc;}
 .formOut section.form table{width:100%;}
-.formOut section.form table th{color:#888;height:30px;text-align: right;width:21%;vertical-align:top;}
+.formOut section.form table th{color:#888;height:30px;text-align: right;width:23%;vertical-align:top;}
 .formOut section.form table td{color:#666;text-align: left;padding-left:10px;vertical-align:top;}
 .formOut section.form header{border-bottom: 1px solid #ddd;padding:5px 0;position:relative;top:-5px;}
 .formOut section.form header img{width:37px;height:37px;border-radius:50px;}
