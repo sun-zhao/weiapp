@@ -310,7 +310,7 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .BottomRBtn.current .edit{-webkit-transform: rotate(80deg);-webkit-transition:0.2s;}
 .BottomRbox{position:fixed;bottom:0;left:0;right:0;z-index:10;border-top:1px solid #ccc;}
 .BottomRbox.current{-webkit-transform:rotate(0deg)!important;-webkit-transition:0.6s;-webkit-transform:scale(1.5);}
-.BottomRbox .btn{display:inline-block;width:25%;padding-top:8px;height:37px;line-height:18px;text-align: center;font-size:1rem;float:left;color:#59a7f9;background:#fff;}
+.BottomRbox .btn{display:inline-block;width:25%;padding-top:8px;height:37px;line-height:1.5rem;text-align:center;font-size:1rem;float:left;color:#59a7f9;background:#fff;}
 .BottomRbox .btn1{color:#02cf77;}
 .BottomRbox .btn2{color:#ff502b;}
 .BottomRbox .btn3{color:#fea701;}
