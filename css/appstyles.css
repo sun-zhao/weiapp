@@ -297,7 +297,7 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .formOut{padding:5px;}
 .formOut section.form{padding:10px;background-color:#fff;box-shadow: 1px 1px 1px #ccc;}
 .formOut section.form table{width:100%;}
-.formOut section.form table th{color:#888;height:30px;text-align: right;width:23%;vertical-align:top;}
+.formOut section.form table th{color:#888;height:30px;text-align: right;width:24%;vertical-align:top;}
 .formOut section.form table td{color:#666;text-align: left;padding-left:10px;vertical-align:top;}
 .formOut section.form header{border-bottom: 1px solid #ddd;padding:5px 0;position:relative;top:-5px;}
 .formOut section.form header img{width:37px;height:37px;border-radius:50px;}
@@ -320,6 +320,7 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .BottomRbox .btn4 .BtnIcon{margin:2px 0 0 0;}
 .BottomRbox .btn span{width:40px;display:inline-block;line-height:10px;font-size:1.2rem;}
 .BottomRbox .btn:active .BtnIcon{-webkit-transform:rotate(30deg);-webkit-transition:0.2s;}
+.BottomRbox .btnline{float: none;margin:0;width:100%;}
 /*表单填写*/
 .editList li{margin-top:-1px;}
 .LiOut{height:40px;line-height:40px;background: #fff;border:1px solid #ccc;border-width:1px 0;position:relative;}
