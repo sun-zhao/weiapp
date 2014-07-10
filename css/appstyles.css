@@ -181,15 +181,15 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .current .Icon-cross,.TopDown ul li:active .Icon-cross{background-image: url(../img/ico-c2.png);}
 .current .Icon-history,.TopDown ul li:active .Icon-history{background-image: url(../img/history_hover.png);}
 .current .Icon-sure,.TopDown ul li:active .Icon-sure{background-image: url(../img/ico-cr2.png);}
-
-
 .content{position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;background:url(../img/bgre.jpg) repeat;background-size:20px;}
 .list{background:#fff;}
 .list li{border-bottom:1px solid #ddd;border-top:1px solid #ddd;height:50px;margin-top:-1px;padding:0 35px 0 15px;background-image: url(../img/ico-04.png);background-position: 98% center;background-size:16px;background-repeat:no-repeat;color:#888;position: relative;transition:0.1s;-webkit-transition:0.1s;}
-.AppImg img{width:24px;height:24px;border:1px solid #f9f9f9;border-radius:20px;}
+/*.AppImg img{width:24px;height:24px;border:1px solid #f9f9f9;border-radius:20px;}*/
+.AppImg{width:24px;height:24px;border:1px solid #f9f9f9;border-radius:50em;text-align: center;position: relative;line-height: 24px;}
 .arrow1{width:12px;height:12px;background: url(../img/ico-05.png) no-repeat;position: absolute;background-size:12px;right:0;top:0;}
 .list li .AppImg{margin-top:13px;display:inline-block;margin-right:20px;}
-.list li .AppName{color:#444;}
+.list li .AppName{color:#444;width:55%;margin-top:-2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+.list li .AppName em{color:#888;}
 .list li.cross p:nth-child(4) span.floatright{color:#00cf77;}
 .list li.nocross p:nth-child(4) span.floatright{color:#e6004f;}
 .list li.current{background-color:#42a6fc;color:#fff;}
@@ -292,7 +292,7 @@ label.checkbox, label.radio, label.text{padding-left:4px;vertical-align:top;}
 .formIconin-box.current li{width:32%;overflow: visible;font-size:1.3rem;}
 .formIconin-box.current li span{width:65px;height:65px;}
 .formIconin-box.current li span .BtnIcon{width:30px;height:30px;}
-
+.list li .AppImg .BtnIcon{width:15px;height:15px;position:absolute;top:50%;left:50%;margin:-7px 0 0 -7px;background-size:15px;background-repeat: no-repeat;}
 /*form*/
 .formOut{padding:5px;}
 .formOut section.form{padding:10px;background-color:#fff;box-shadow: 1px 1px 1px #ccc;}
